@@ -5,7 +5,7 @@
 **Requirements**
 
 
-python                    3.6.1
+python                    3.6.1\\
 rdkit                     2020.03.3.0
 biopython                 1.78
 openbabel                 2.4.1
