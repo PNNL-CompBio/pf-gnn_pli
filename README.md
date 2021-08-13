@@ -1,4 +1,4 @@
-<span font-size:14em;">Decoding the Protein-ligand InteractionsUsing Parallel Graph Neural Networks</span>
+<span style="font-size:larger;"">Decoding the Protein-ligand InteractionsUsing Parallel Graph Neural Networks</span>
 ![molecule2](updatedfig1.png)
 
 **Requirements**
