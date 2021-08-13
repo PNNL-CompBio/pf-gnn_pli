@@ -1,6 +1,6 @@
 **Decoding the Protein-ligand InteractionsUsing Parallel Graph Neural Networks**
 
-<img src="updatedfig1.png" width="400" height="400">
+<div style="text-align:center"><img src="updatedfig1.png" width="600" height="400"></div>
 
 **Requirements**
 python                    3.6.1
