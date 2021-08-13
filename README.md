@@ -4,15 +4,14 @@
 
 **Requirements**
 
-```python
-python                    3.6.1
-rdkit                     2020.03.3.0
-biopython                 1.78
-openbabel                 2.4.1
-numpy                     1.19.2
-scipy                     1.5.2
-torchvision               0.7.0
-```
+  * [python] 0.10+
+  * [rdkit]  2020.03.3.0
+  * [biopython]                 1.78
+  * [openbabel]                 2.4.1
+  * [numpy]                     1.19.2
+  * [scipy]                     1.5.2
+  * [torchvision]               0.7.0
+
 
 Conda enviroment is highly recommended for this implementation
 
