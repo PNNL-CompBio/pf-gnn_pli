@@ -21,11 +21,12 @@ from dataset import *
 
 if __name__ == '__main__':
 
-    numpy_dir = 'data_numpy_eba' #path to save numpy feature files
+    mol_dir = sys.argv[1] #path to pickled protein-ligand mol folder
+    numpy_dir = sys.argv[2] #path to save numpy feature files
     with open("keys/PDBBind_eba_sample_labels.pkl", 'rb') as pkl_file: #save your labels in pickle format. (complex_name:pic50_value)
         eba_labels = pickle.load(pkl_file)
 
-    for m1_m2_file in glob.glob("data_mol_pkl/*"):
+    for m1_m2_file in glob.glob(mol_dir+"/*"):
         m1_m2 = m1_m2_file.split("/")[-1]
         target = m1_m2
         if target in eba_labels.keys():
