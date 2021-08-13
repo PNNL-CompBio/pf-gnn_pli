@@ -45,10 +45,9 @@ These scripts can be called as:
 ```python
 python repare_pic50_data.py <path to pkl-mol directory> <path to save numpy features>
 ```
-
+```python
 python repare_eba_data.py <path to pkl-mol directory> <path to save numpy features>
-
-
+```
 **Training**
 
 
@@ -58,12 +57,16 @@ in place for undeclared parameters including a save directory.
 
 **Classfication models**
 
-
+```python
 python -W ignore -u train.py --dropout_rate=0.3 --epoch=500 --ngpu=1 --batch_size=32 --num_workers=0  --train_keys=<your_training_keys.pkl>  --test_keys=<your_test_keys.pkl>
+```
 
 **Regression models**
 
+```python
 python -W ignore -u train.py --dropout_rate=0.3 --epoch=500 --ngpu=1 --batch_size=1 --num_workers=0 --data_dir=<path to feature-numpy folder> --train_keys=<your_training_keys.pkl>  --test_keys=<your_test_keys.pkl>
+```
+
 
 The save directory stores each epoch as a .pt allowing the best model inatance to be loaded
 later on
