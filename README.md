@@ -42,7 +42,10 @@ All the files are saved in pickle format with train and test keys as list and th
 
 These scripts can be called as:
 
+```python
 python repare_pic50_data.py <path to pkl-mol directory> <path to save numpy features>
+```
+
 python repare_eba_data.py <path to pkl-mol directory> <path to save numpy features>
 
 
