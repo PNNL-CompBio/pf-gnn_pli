@@ -1,8 +1,4 @@
-
-<div id="bigtext">
-    <span>Decoding the Protein-ligand InteractionsUsing Parallel Graph Neural Networks</span>
-</div>
-
+<span font-size:14em;">Decoding the Protein-ligand InteractionsUsing Parallel Graph Neural Networks</span>
 ![molecule2](updatedfig1.png)
 
 **Requirements**
@@ -48,10 +44,10 @@ Below is an example of the training command. Additional options can be added to 
 argument parser here (learning rate, layer amount and dimension, etc). Defaults are
 in place for undeclared parameters including a save directory. 
 
-*Classfication models*
+**Classfication models**
 python -W ignore -u train.py --dropout_rate=0.3 --epoch=500 --ngpu=1 --batch_size=32 --num_workers=0  --train_keys=<your_training_keys.pkl>  --test_keys=<your_test_keys.pkl>
 
-*Regression models*
+**Regression models**
 
 python -W ignore -u train.py --dropout_rate=0.3 --epoch=500 --ngpu=1 --batch_size=1 --num_workers=0 --data_dir=<path to feature-numpy folder> --train_keys=<your_training_keys.pkl>  --test_keys=<your_test_keys.pkl>
 
