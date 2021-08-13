@@ -1,5 +1,5 @@
-<span style="font-size:14em;">Decoding the Protein-ligand InteractionsUsing Parallel Graph Neural Networks</span>
-![molecule2](updatedfig1.png)
+**Decoding the Protein-ligand InteractionsUsing Parallel Graph Neural Networks**
+![molecule2](updatedfig1.png =250x250)
 
 **Requirements**
 python                    3.6.1
