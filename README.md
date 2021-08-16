@@ -23,11 +23,21 @@ Data preperation requires the ligand and protein to be in a mol format readable 
 .sdf is easily handled with openbabel conversion, made convenient with the pybel wrapper
 
 Both files can then be fed into extractM2.py where the cropping window can be adjusted on line 29
+The extract method will operates best if the initial protein file is in pdbqt format.
 For easy model integration it is best to store the m2 protein window produced by the
 extract script along with the original protein ex: pickle.dump((m1,m2), file)
 
 Once cropped complexes are stored, their numpy featurization files can be created.
 Files for the different models are labeled in the Data_Prep directory
+
+The scripts are designed to use keys that reference the cropped and stored pairs
+from the previous step. Users will need to alter scripts to include their desired
+directories, as well as key traversal. Once these changes have been made, the scripts
+can be called with 
+
+```python
+python -W ignore gnn[f/p]_data_prep.py
+```
 
 **Data Preparation for regression models**
 
