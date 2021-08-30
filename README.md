@@ -17,7 +17,6 @@ Conda enviroment is highly recommended for this implementation
 
 **Data Preparation for classification models**
 
-
 Data preperation requires the ligand and protein to be in a mol format readable by rdkit
 .mol, .mol2, and .pdb are readily handled by rdkit
 .sdf is easily handled with openbabel conversion, made convenient with the pybel wrapper
