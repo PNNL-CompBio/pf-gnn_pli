@@ -1,4 +1,4 @@
-**Decoding the Protein-ligand InteractionsUsing Parallel Graph Neural Networks**
+**Decoding the Protein-ligand Interactions Using Parallel Graph Neural Networks**
 
 <img align="center" src="updatedfig1.png" width="600" height="400">
 
